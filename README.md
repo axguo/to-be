@@ -22,5 +22,5 @@ chmod +x mergeAndArrangePDFs.sh
 ./mergeAndArrangePDFs.sh
 ```
 
-Then `merged.pdf` has 1/page and `mergedAndArranged.pdf` has 2/page.
+Then `merged.pdf` has 1/page and `mergedAndArranged.pdf` has 2/page. We recommend printing merged.pdf at 95% size and mergedAndArranged.pdf at 100% size.
 
