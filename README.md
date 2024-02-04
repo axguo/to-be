@@ -9,9 +9,11 @@ https://github.com/axguo/to-be/assets/25183070/cca070e3-000c-417e-a7cf-f2d2a5c72
 
 ## Print
 
-To merge PDFs to print,
+To merge PDFs to print, remove the `<div id="menu">...</div>` line from index.html then run these on MacOS:
 
-```
+```bash
+yarn add puppeteer
+npx tsx printPDF.ts
 brew install --cask basictex
 sudo tlmgr update --self
 sudo tlmgr install pdfjam
