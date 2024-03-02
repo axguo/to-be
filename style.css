@@ -98,3 +98,14 @@ a {
 a:hover {
     color:rgb(122, 122, 122);
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #696969;
+        filter: invert(1);
+        background-color: black;
+    }
+    .element-class {
+        border-color: #696969;
+    }
+}
