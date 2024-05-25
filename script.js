@@ -6,6 +6,29 @@ const offset = 2000;
 const vowels = ["aa", "ae", "ah", "ao", "aw", "ay", "eh", "er", "ey", "ih", "iy", "ow", "oy", "uh", "uw"];
 
 const colors = "ruby red | fiery orange | sun-kissed yellow | verdant green | sapphire blue | regal purple | blushing pink | earthy brown | misty gray | raven black | pure white | oceanic turquoise | royal magenta | dreamy lavender | mystic teal | radiant gold | shimmering silver | olive grove | charcoal embers | nightfall indigo | carmine red | tangerine orange | lemon yellow | forest green | electric blue | amethyst purple | fuchsia pink | sienna brown | smoky gray | midnight black | pearl white | aqua turquoise | orchid magenta | lilac lavender | mint teal | metallic gold | sparkling silver | moss olive | graphite charcoal | deep indigo | maroon red | coral orange | canary yellow | lime green | azure blue | violet purple | rose pink | rusty brown | slate gray | ivory white | crimson | amber | lemon | olive | teal | violet | rose | umber | pewter | onyx | ivory | turquoise | cerise | lilac | cyan | gold | platinum | khaki | ebony | azure | scarlet | apricot | lime | fern | cobalt | orchid | coral | sienna | slate | jet | pearl | aquamarine | lavender | mint | bronze | silver | jade | garnet | ruby | topaz | sapphire | indigo | mauve | amber | copper | burgundy | ivory | quartz | tangerine";
+const traceryColors = [
+    "ruby red", "fiery orange", "sun-kissed yellow", "verdant green", "sapphire blue", 
+    "regal purple", "blushing pink", "earthy brown", "misty gray", "raven black", 
+    "pure white", "oceanic turquoise", "royal magenta", "dreamy lavender", "mystic teal", 
+    "radiant gold", "shimmering silver", "olive grove", "charcoal embers", "nightfall indigo", 
+    "carmine red", "tangerine orange", "lemon yellow", "forest green", "electric blue", 
+    "amethyst purple", "fuchsia pink", "sienna brown", "smoky gray", "midnight black", 
+    "pearl white", "aqua turquoise", "orchid magenta", "lilac lavender", "mint teal", 
+    "metallic gold", "sparkling silver", "moss olive", "graphite charcoal", "deep indigo", 
+    "maroon red", "coral orange", "canary yellow", "lime green", "azure blue", 
+    "violet purple", "rose pink", "rusty brown", "slate gray", "ivory white", 
+    "crimson", "amber", "lemon", "olive", "teal", 
+    "violet", "rose", "umber", "pewter", "onyx", 
+    "ivory", "turquoise", "cerise", "lilac", "cyan", 
+    "gold", "platinum", "khaki", "ebony", "azure", 
+    "scarlet", "apricot", "lime", "fern", "cobalt", 
+    "orchid", "coral", "sienna", "slate", "jet", 
+    "pearl", "aquamarine", "lavender", "mint", "bronze", 
+    "silver", "jade", "garnet", "ruby", "topaz", 
+    "sapphire", "indigo", "mauve", "amber", "copper", 
+    "burgundy", "ivory", "quartz", "tangerine"
+  ];
+  
 
 $(document).ready(function () {
     const randomSeed = getURLParameter();
@@ -221,7 +244,7 @@ function generateToBe() {
             "#vbg#",
             "#vbn#"
           ],
-          "color": ["colors"],
+          "color": traceryColors,
           "adj-phrase": [
             "#adj#",
             "#adj-comp#",
